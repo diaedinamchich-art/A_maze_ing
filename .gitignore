@@ -1,21 +1,32 @@
 # Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 *.pyo
 
 # Virtual environments
 venv/
-.env/
+env/
+.env
+.venv
 
-# Build files
+# Build & Packaging files
 build/
 dist/
 *.egg-info/
+*.whl
+*.tar.gz
 
 # IDE files
 .vscode/
 .idea/
 
+# Mypy
+.mypy_cache/
+
 # OS files
 .DS_Store
 Thumbs.db
+
+# Project specific generated files
+maze_test.txt

@@ -1,4 +1,4 @@
-from maze import MazeGenerator
+from mazegen.maze import MazeGenerator
 
 def test_run():
     width, height = 20, 15
