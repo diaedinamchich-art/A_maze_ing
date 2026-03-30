@@ -14,7 +14,6 @@ env/
 build/
 dist/
 *.egg-info/
-*.whl
 *.tar.gz
 
 # IDE files
